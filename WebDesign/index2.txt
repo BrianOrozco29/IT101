@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- HTML webpage for IT101. Brian Orozco -->
+<html>
+	<head>
+		<title>Brian Orozco's 2nd Web Page</title>
+	</head>
+				<body>
+					<p>Back to <a href="https://web.njit.edu/~bao7">home page</a>.</p>
+					<p> <strong>Brian Orozco's 2nd Web Page</strong> </p>
+					<p>Here are ten reasons as to why <a href="https://donswansonracingschool.com/programs.htm">DonSwansonRacingSchool.com</a> (during 2012) is a bad webpage, and is a chore to sit through:</p>
+					<ol>
+						<li>A lot of inconsistent formatting, some text is left justified, but then switches to a centered format, only to switch back again</li>
+
+						<li>Questionable text color palettes, such as a lime green or sickly yellow over a black background</li>
+
+						<li>Way too much information densely packed in one page. Scrolling down makes a page more annoying to navigate, which can be mitigated by splitting this info into several smaller pages</li>
+
+						<li>Animated gif at the top does not mesh well with the rest of the page design-wise, making it an eyesore</li>
+
+						<li>Many instances of the term "CLICK HERE", then proceeding to place the link in a different spot, which can be tedious and frustrating</li>
+
+						<li>Several spelling and grammar errors</li>
+
+						<li>The thin, white page dividers fail their intended purpose, as it is unclear when a top starts and ends. Again, separate webpages would would much better</li>
+
+						<li>Instead of placing the contact information in a neat section that is clear and concise, it is tacked onto the end of a paragraph where it should not be</li>
+
+						<li>Much of the text itself is unnecessary padding that only serves to clutter the site, instead of providing useful information</li>
+
+						<li>When browsing through one of the tabs on the site, clicking on the banner at the top of the site does NOT bring you back to the home page, which is a critical convenience any website should implement</li>
+					</ol>
+				</body>
+</html>

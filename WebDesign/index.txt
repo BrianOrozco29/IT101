@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<!-- HTML webpage for IT101. Brian Orozco -->
+<html>
+   <head>
+	<title>Brian Orozco's Web Page</title>
+   </head>
+
+   <body>
+	<p> <strong>Brian Orozco's Web Page</strong> </p>
+	<p> Hello! My name is Brian Orozco and I am a third-year student at New Jersey Institute of Technology. Computer Science is my major of choice. I am currently taking IT 101, taught by Professor Lori Watrous-deVersterre. Other than that, I am also taking CS 288, CS 431, and MATH 333.</p>
+	<p> My favorite pastimes include watching YouTube videos, browsing social media, and video editing. I also enjoy playing video games, both casually and competitively. My favorite video game franchises are Pokemon, Metal Gear, and Super Smash Bros. I currently work at Jersey Gardens mall as a Store Associate for a well-known sportswear brand. Thank you for visiting my homepage! </p>
+	
+	<p> Here's a link to my <a href="https://www.youtube.com/channel/UC8dco5S2ir5TafKAguVVkHg">YouTube Channel</a> where I upload Let's Plays and game highlights!</p>
+
+	<p>Look at this cute plush toy my friend gave to me on my birthday!</p>
+	<img src="https://images-eu.ssl-images-amazon.com/images/I/41NaJYCic9L._SL500_AC_SS350_.jpg" />
+
+	<p>Here's a link to my <a href="https://web.njit.edu/~bao7/index2.html">2nd Web Page</a> where I analyze a bad website.</p>
+	<p>Also, here's a link to a page where I go over the <a href="https://web.njit.edu/~bao7/extra.html">do's and don'ts of creating a webpage</a>.</p>
+   </body>
+</html>

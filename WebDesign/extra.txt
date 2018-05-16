@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- HTML webpage for IT101. Brian Orozco -->
+<html>
+	<head>
+		<title>Extra Credit</title>
+		<style>
+		ol	{color: black;
+			 font-family: Arial;}
+		</style>
+	</head>
+				<body>
+					<p>Back to <a href="https://web.njit.edu/~bao7">home page</a>.</p>
+					<p> <strong>Extra Credit</strong> </p>
+					<p>Five practices one should do when creating a webpage/website:</p>
+					<ol>
+						<li>Keep the most important content at the part of the page that is visible when the user arrives</li>
+
+						<li>Always have a link to the home page accesible from any page on the website</li>
+
+						<li>Use sans-serif style fonts to maximize readability</li>
+
+						<li>When implementing text links, use meaningful descriptions to provide information on said link</li>
+
+						<li>Use bulleted lists and short paragraphs to break up text, which also enhances readability</li>
+					</ol>
+</html>
+
+<html>
+	<head>
+	</head>
+				<body>
+					<p>What one should avoid:</>
+		<style>
+		ul	{color: yellow;
+			 font-family: comic sans ms;}
+		</style>
+					<ul>
+						<li>Limit the use of specialty fonts, like Comic Sans</li>
+
+						<li>Do <strong>NOT</strong> use dense text. Bodies of text are not very reader-friendly</li>
+
+						<li>Animated gifs, automatic sound files, and pop-up windows are very common annoyances in web design that should be avoided</li>
+
+						<li>To make pages load quickly, avoid large images and the length of the page itself</li>
+
+						<li>Do <strong>NOT</strong> use "frozen" displays for a webpage. This could cause many users to have to scroll sideways to see the full page. Because of the limitations of a common mouse, scrolling sideways is inherently inconvenient, thus annoying users greatly</li>
+					</ul>
+					<p>^ Yes, this is ironic</p>
+				</body>
+</html>
