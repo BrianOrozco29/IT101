@@ -1,0 +1,32 @@
+
+For this homework, you will create a set of personal web pages under your public_html directory on afs account. In order
+for me to grade this assignment, I must be able to view your web pages from a browser. It might be a good idea to have
+someone else look at your website before completion of this project to make sure it is accessible.
+(2pts) After building the pages based on the assignment below, please upload to Moodle the following content:
+ A document file (file format can be Word, PDF, txt) that contains the absolute path and URL for your homepage
+ Any files (textual or image) you’ve created to produce your web page(s). For example, the index.html file.
+1. (24pts) Create a personal web page.
+As a minimum, the page must:
+a. be on the NJIT web server
+b. contain a title
+c. contain at least two paragraphs about yourself (don’t make it too personal. Remember these are public
+sites. Don’t publish birth dates, home addresses, etc.)
+d. contain at least one external link to a useful website
+e. contain at least one image
+EXTRA CREDIT (15pts): research HTML elements and a separate webpage that contains a bullet list of 5
+practices you should do when creating a webpage and a second list of 5 bullets that you should avoid. Create
+a CSS file containing a different set of headers, paragraphs, fonts, color, etc. Use this ccs file to modify these
+two lists. (Note, none of the information on this second page or the link to it can be counted for the
+requirements listed in a. through e.)
+Make sure you add a link back to your home page.
+You may, if you wish, use the web page template posted on the class web page as a basis for your page. You
+must change all of the information – the contents of the title, the paragraphs, the link, and the image must be
+different.
+2. (24pts) Find a bad webpage. On the webpage you created in part 1, in Q1 webpage, provide a link to a new web
+page (Q2) that you will create, and add another link pointing to the bad site. In Q2 webpage, list 10 reasons as to
+why the site is bad. (Hint: a good place to start is http://www.webpagesthatsuck.com/).
+Don’t forget to add a link back to the Home Page.
+The layout for this would look something like the following diagram.
+ Q1, Q2, and Extra Credit are web pages that would be found in your public_html directory.
+ The arrows indicate absolute or relative hyperlinks.
+ Exterior Site and Bad Web Site are 2 different URLs
