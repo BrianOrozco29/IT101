@@ -1,0 +1,60 @@
+1.	(5pts) Populate your "student" table with at 20 or more students, such that:
+•	At least 9 of them (but not all!) have the last name 'Benson'
+•	At least 3 students must have the first and last name 'Brad Benson'
+•	At least 1 row has a student with the GPA of 3.85
+•	At least 2 rows has a student with the GPA of 3.7 and 3.84, respectively
+•	At least 2  rows have a GPA of 2.7 and 3.69, respectively
+•	At least 2  rows have a GPA of 1.7 and 2.69, respectively
+•	At least 2  rows have a GPA of 1.0 and 1.69, respectively
+•	At least 1 row has a GPA below 1.0 
+•	At least 3 rows are from state CA
+•	More than 5 are from WA
+•	More than 2 are from OR
+•	At least 3 students must live at '24 Grand Ave'
+•	At least 6 students have to live on a street other than '24 Grand Ave'
+•	At least 5 are from states other than WA, CA, or OR
+•	At least 3 have more than 96 credits
+•	There must be at least one student with credits of 32, 33, 64, 65, and 96, respectively (i.e. 5 different entries)
+•	At least 2 of them has less than32 credits
+•	At least 2 have between 65-96 credits
+•	At least 2 have between 33-64 credits
+To accomplish this, you can use the "insert" command (multiple times) via the command-line interface. Recall how you used the INSERT mysql command in the lab:
+insert   into   student   values  ('1',  'Sally',  'Smith',  '10 Main St.',  'NJ',  '3.92',  '98');
+Note that the value of the field "id," while arbitrary must be unique for all students. (That's why it is designated as the "primary key.") I recommend that you simply assign the id's sequentially, that is, the first student is 1, the second is 2, etc. 
+For the rest of this assignment the letter grade to GPA and the grade level to credits relationships are as follows. Note these may not apply to an actual school 
+
+GPA	Recognition   Letters		                Credits	        School level
+3.85 or above	    A+ or High Honors		      More than 96	  Senior
+3.7 - 3.84	      Honors		                65-96	          Junior
+2.7 - 3.69	      B		                      33-64	          Sophomore
+1.7 - 2.69	      C		                      Less than 33	  Freshman
+1.0 – 1.69	      D			
+Below 1.0	        F			
+
+2.	(2pts) Try creating another student with the id 1. 
+a.	Screenshot the results of the following query and insert it into your homework WORD document:
+insert   into   student   values   ('1',  'Jane',  'Doe',  '14 King Blvd.',  'NJ',  '3.17',  '124');
+b.	How does MySQL respond? Explain what the message displayed means.	
+3.	 (1pt) Use the following SQL query to retrieve all records. Take a screenshot and insert it into your homework WORD document:
+select   *   from student;
+4.	(1pt) Screenshot the results of the following query and insert it into your homework WORD document:
+select   gpa, lastname, state   from   student   where   state='NJ';
+The query shows 3 columns for the gpa, lastname and state fields and it only displays students from NJ.
+5.	(36pts, 6pt each) Next, write and run (issue) SQL queries that do the following. For each query, provide screenshots for the SQL query and the results within a Word document so I can grade it.
+a.	Show how many students are from each state. Order by state.
+
+b.	List the student ids and state all students NOT living at '24 Grand Ave'.
+
+c.	Retrieve all information about sophomore and senior students. Order by state. (see table for definition at the beginning of this document for credit and gpa).
+
+d.	Order all Benson students by their gpa. Show their first and last name and gpa. (see table for definition at the beginning of this document for credit and gpa).
+
+e.	Find all students in Honors but are not freshmens. Show and order by credits. (see table for definition at the beginning of this document for credit and gpa).
+	
+f.	Retrieve student last name and street address of all senior students from WA. Include anyone who is from OR. Order the results by credit. (note, credit is not listed in the display)
+
+6.	 (5pts) Submit your homework to Moodle. The Word document must have your lastname as part of the filename.
+EXTRA CREDIT:
+For each problem, show the single SQL query and a screenshot of the results. You may need to research SQL commands to determine how to answer these questions.
+1.	(3pts) What is the average GPA for the students from CA?
+
