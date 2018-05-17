@@ -1,6 +1,7 @@
 --Creating a table named student
 
-create table student (id INT PRIMARY KEY, firstname VARCHAR(25), lastname VARCHAR(50), address VARCHAR(50), state VARCHAR(2), gpa DOUBLE, credits INT);
+create table student (id INT PRIMARY KEY, firstname VARCHAR(25), lastname VARCHAR(50), address VARCHAR(50), state VARCHAR(2), gpa DOUBLE, credits INT);
+
 
 --inserting all of the student values to match assignment description in problem 1
 
@@ -38,7 +39,7 @@ How does MySQL respond? Explain what the message displayed means.
 insert into student values ('1', 'Jane', 'Doe', '14 King Blvd.', 'NJ', '3.17', '124');
 
 /*
-SQL responds with “Duplicate entry ‘1’ for key ‘PRIMARY’”. This means that there may only be one entry with a specific Primary key, as each key must be unique from each other. Therefore, there cannot be more than one entry with the ‘1’ id Primary Key.
+SQL responds with â€œDuplicate entry â€˜1â€™ for key â€˜PRIMARYâ€™â€. This means that there may only be one entry with a specific Primary key, as each key must be unique from each other. Therefore, there cannot be more than one entry with the â€˜1â€™ id Primary Key.
 */
 
 --To retrieve all the records in the table I can use this function:
